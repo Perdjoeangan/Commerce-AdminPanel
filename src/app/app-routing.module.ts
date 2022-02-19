@@ -33,6 +33,9 @@ import { CampaignsComponent } from "./pages/campaigns/campaigns.component";
 import { SubscriptionsComponent } from "./pages/subscriptions/subscriptions.component";
 import { FeedbacksComponent } from "./pages/feedbacks/feedbacks.component";
 import { SystemComponent } from "./pages/system/system.component";
+import { ChannelsComponent } from "./pages/channels/channels.component";
+import { MerchantsComponent } from "./pages/merchants/merchants.component";
+import { UsersComponent } from "./pages/users/users.component";
 
 @NgModule({
     imports: [
@@ -68,6 +71,9 @@ import { SystemComponent } from "./pages/system/system.component";
                     {path: 'subscriptions', component: SubscriptionsComponent},
                     {path: 'feedbacks', component: FeedbacksComponent},
                     {path: 'system', component: SystemComponent},
+                    {path: 'channels', component: ChannelsComponent},
+                    {path: 'merchants', component: MerchantsComponent},
+                    {path: 'users', component: UsersComponent},
 
                 ],
             },
