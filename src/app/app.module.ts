@@ -140,6 +140,11 @@ import { LoginComponent } from './components/login/login.component';
 import { ErrorComponent } from './components/error/error.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { AccessComponent } from './components/access/access.component';
+import { SalesComponent } from './pages/sales/sales.component';
+import { CampaignsComponent } from './pages/campaigns/campaigns.component';
+import { SubscriptionsComponent } from './pages/subscriptions/subscriptions.component';
+import { FeedbacksComponent } from './pages/feedbacks/feedbacks.component';
+import { SystemComponent } from './pages/system/system.component';
 
 @NgModule({
     imports: [
@@ -273,6 +278,11 @@ import { AccessComponent } from './components/access/access.component';
         ErrorComponent,
         NotfoundComponent,
         AccessComponent,
+        SalesComponent,
+        CampaignsComponent,
+        SubscriptionsComponent,
+        FeedbacksComponent,
+        SystemComponent,
     ],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},

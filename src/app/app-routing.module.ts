@@ -28,6 +28,12 @@ import { LoginComponent } from './components/login/login.component';
 import { ErrorComponent } from './components/error/error.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { AccessComponent } from './components/access/access.component';
+import { SalesComponent } from "./pages/sales/sales.component";
+import { CampaignsComponent } from "./pages/campaigns/campaigns.component";
+import { SubscriptionsComponent } from "./pages/subscriptions/subscriptions.component";
+import { FeedbacksComponent } from "./pages/feedbacks/feedbacks.component";
+import { SystemComponent } from "./pages/system/system.component";
+
 @NgModule({
     imports: [
         RouterModule.forRoot([
@@ -56,7 +62,13 @@ import { AccessComponent } from './components/access/access.component';
                     {path: 'pages/empty', component: EmptyComponent},
                     {path: 'icons', component: IconsComponent},
                     {path: 'blocks', component: BlocksComponent},
-                    {path: 'documentation', component: DocumentationComponent}
+                    {path: 'documentation', component: DocumentationComponent},
+                    {path: 'sales', component: SalesComponent},
+                    {path: 'campaigns', component: CampaignsComponent},
+                    {path: 'subscriptions', component: SubscriptionsComponent},
+                    {path: 'feedbacks', component: FeedbacksComponent},
+                    {path: 'system', component: SystemComponent},
+
                 ],
             },
             {path:'pages/landing', component: LandingComponent},
